@@ -35,6 +35,11 @@ const OCMenu = (props) => {
               <NavLink to="/contact">Contact</NavLink>
             </ListItemButton>
           </ListItem>
+          <ListItem key={4} disablePadding>
+            <ListItemButton>
+              <NavLink to="/people/add">Add Person</NavLink>
+            </ListItemButton>
+          </ListItem>
         </List>
       </Box>
     </Drawer>
