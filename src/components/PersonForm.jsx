@@ -78,14 +78,3 @@ export default function PersonForm() {
   );
 }
 
-//   return (
-//     /* "handleSubmit" will validate your inputs before invoking "onSubmit" */
-//     <form onSubmit={handleSubmit(onSubmit)}>
-//       <input {...register("name", { required: true })} />
-//       {/* errors will return when field validation fails  */}
-//       {errors.name && <span>This field is required</span>}
-
-//       <button type="submit">Submit</button>
-//     </form>
-//   );
-// }
