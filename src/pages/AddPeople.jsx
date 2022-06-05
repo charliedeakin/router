@@ -4,7 +4,7 @@ import PersonForm from '../components/PersonForm'
 function AddPeople() {
   return (
     <div>
-    <h1>AddPeople</h1>
+    <h1>Add People</h1>
     <PersonForm />
     </div>
   )
